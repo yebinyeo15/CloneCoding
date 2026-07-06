@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="회원가입 페이지 클론코딩" />
+        <meta name="keywords" content="html, css, clone coding" />
+        <meta name="author" content="clone coding" />
+        <title>회원가입</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <div id="wrap">
+            <header id="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="#">100 x 50</a></h1>
+                    <nav class="gnb">
+                        <ul>
+                            <li><a href="#">MainMenu1</a></li>
+                            <li><a href="#">MainMenu2</a></li>
+                            <li><a href="#">MainMenu3</a></li>
+                            <li><a href="#">MainMenu4</a></li>
+                            <li><a href="#">MainMenu5</a></li>
+                            <li><a href="#">MainMenu6</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="util">
+                        <li><a href="#">채용공고</a></li>
+                        <li><a href="#">회사정보</a></li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div id="subVisual">
+                <h2>회원가입</h2>
+            </div>
+
+            <main id="content">
+                <section class="join">
+                    <div class="join-title">
+                        <h3>회원 정보 입력</h3>
+                        <span><em>*</em> 필수입력 항목</span>
+                    </div>
+
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>회원 정보 입력</legend>
+                            <table class="form-table">
+                                <caption>
+                                    회원 정보 입력
+                                </caption>
+                                <colgroup>
+                                    <col class="label-col" />
+                                    <col />
+                                </colgroup>
+                                <tbody>
+                                    <tr class="form-row basic">
+                                        <th scope="row"><label for="userName">이름 <em>*</em></label></th>
+                                        <td class="field"><input type="text" id="userName" placeholder="홍길동" /></td>
+                                    </tr>
+                                    <tr class="form-row basic">
+                                        <th scope="row"><label for="birth">생년월일 <em>*</em></label></th>
+                                        <td class="field"><input type="text" id="birth" placeholder="2024.02.29" /></td>
+                                    </tr>
+                                    <tr class="form-row basic last-basic">
+                                        <th scope="row"><label for="gender">성별 <em>*</em></label></th>
+                                        <td class="field"><input type="text" id="gender" placeholder="남/여" /></td>
+                                    </tr>
+                                    <tr class="form-row">
+                                        <th scope="row"><label for="userId">아이디 <em>*</em></label></th>
+                                        <td class="field inline-field">
+                                            <input type="text" id="userId" placeholder="아이디" />
+                                            <button type="button">중복확인</button>
+                                            <p>중복확인 6자 이상(한글/특수문자 불가)</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row">
+                                        <th scope="row"><label for="password">비밀번호 <em>*</em></label></th>
+                                        <td class="field inline-field">
+                                            <input type="password" id="password" placeholder="비밀번호6자리" />
+                                            <p>영문, 숫자, 특수문자를 혼합하여 8~15자로 사용 합니다.공백은 사용이 불가합니다.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row">
+                                        <th scope="row"><label for="passwordCheck">비밀번호 <em>*</em></label></th>
+                                        <td class="field"><input type="password" id="passwordCheck" placeholder="비밀번호6자리" /></td>
+                                    </tr>
+                                    <tr class="form-row email-row">
+                                        <th scope="row"><label for="emailId">이메일 <em>*</em></label></th>
+                                        <td class="field inline-field">
+                                            <input type="text" id="emailId" placeholder="전화번호 앞 3자리" />
+                                            <span>@</span>
+                                            <input type="text" title="이메일주소" placeholder="이메일주소" />
+                                            <select title="이메일 도메인 선택">
+                                                <option>기타(직접입력)</option>
+                                                <option>naver.com</option>
+                                                <option>gmail.com</option>
+                                                <option>daum.net</option>
+                                            </select>
+                                            <button type="button">중복확인</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row address-row">
+                                        <th scope="row"><label for="zipCode">배송주소(선택)</label></th>
+                                        <td class="field">
+                                            <div>
+                                                <input type="text" id="zipCode" />
+                                                <button type="button">우편번호찾기</button>
+                                            </div>
+                                            <input type="text" title="상세 주소" class="address-detail" />
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row agree-row">
+                                        <th scope="row">eKOLON 멤버십<br />정보 수신 동의</th>
+                                        <td class="field">
+                                            <p>회원님께 제공되는 공지, 이벤트 소식, 포인트 정보, 행사, 신상품 소개 등의 다양한 정보 안내를 받으시겠습니까?</p>
+                                            <label><input type="checkbox" /> 이메일 수신동의</label>
+                                            <label><input type="checkbox" /> SMS 수신 동의</label>
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row agree-row">
+                                        <th scope="row">사이트<br />정보 수신 동의</th>
+                                        <td class="field">
+                                            <label><input type="checkbox" /> 이메일을 통한 상품 및 이벤트 정보 수신에 동의합니다.</label>
+                                        </td>
+                                    </tr>
+                                    <tr class="form-row brand-row">
+                                        <th scope="row">관심브랜드</th>
+                                        <td class="field"><p>선택하신 브랜드의 상품 및 다양한 이벤트 정보를 받으실 수 있습니다.</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="btn-wrap">
+                                <button type="button" class="cancel">취소</button>
+                                <button type="submit" class="submit">확인</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+
+            <footer id="footer"></footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+
+https://fullstack-eun.tistory.com/40
+
+
+
+
+https://www.taekwanggroup.co.kr/ko/main
+
+<title>태광그룹 : 사람과 미래를 연결하는 빛</title>
+<title>회사명 : 페이지명 </title>
+서울과학기술대학교 - 대학소개 - 서울과기대 소개 - 대학이념·교훈·교육목표
+
+<meta name="title" content="사람과 미래를 연결하는 빛, 태광" />
+<meta name="description" content="사람과 미래를 연결하는 빛, 태광" />
+<meta name="keywords" content="태광, 태광그룹, Taekwang, 일주, 一洲, 이임용, 섬유·석유화학, 금융, 미디어, 인프라·레저, 육영·Art, 태광산업, 대한화섬, 태광화섬(상숙) 유한공사, 흥국생명, 흥국화재, 흥국증권, 흥국자산운용, 고려저축은행, 예가람저축은행, 티캐스트, E채널, 씨네큐브, cinecube, 한국케이블텔레콤(kct), trn, 티알엔, 티시스(tsis), 메르뱅, MERVIN, esteem, 큰희망, Taekwang CC, 태광CC, WHISTLING ROCK CC, 휘슬링락CC, 일주·세화학원, 세화여고, 세화여자고등학교, 세화여중, 세화여자중학교, 세화고, 세화고등학교, 일주학술문화재단, ILJU Academy and Culture Foundation, 세화예술문화재단, Sehwa Art and Culture Foundation, 세화미술관, Sehwa Art Museum, 핑크스파이더스 배구단, Pink Spiders Volleyball Team" />
+
+
+<meta name="title" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="">
+
+
+백세주 
+view-source:https://www.bekseju.com/
+
+
+
+<!-- og tag -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.taekwanggroup.co.kr/main" />
+<meta property="og:image" content="https://www.taekwanggroup.co.kr/resources/images/ogTag/00_main.jpg" />
+<meta property="og:title" content="태광그룹" />
+<meta property="og:description" content="태광은 ‘큰 빛’ 입니다." />
+<meta property="og:site_name" content="사람과 미래를 연결하는 빛, 태광" />
+
+<!-- twitter Preview -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.taekwanggroup.co.kr/resources/images/ogTag/00_main.jpg"/>
+<meta name="twitter:title" content="태광그룹"/>
+<meta name="twitter:description" content="태광은 ‘큰 빛’ 입니다."/>
+
+
+접근성 사이트 
+https://www.wa.or.kr/
+
+https://www.comwel.or.kr/comwel/main.jsp
+
+<title>해당페이지경로</title>
+<title>근로복지공단 대표홈페이지 | 공단소개 | 이사장 인사말</title>
