@@ -21,7 +21,7 @@ button:focus {outline: none}
  /* layout */
 
 body{font-family: 'Noto Sans KR', sans-serif; font-size: 14px; color:#333;}
-.wrap {position: relative; overflow: hidden;}
+#wrap {position: relative; overflow: hidden;}
 .en {font-family: 'handel gothic', sans-serif;}
 .en_s {font-family: 'Dancing Script', cursive;}
 .innerHeader {max-width: 90%; margin: 0 auto; height: 110px; line-height: 110px; display: flex; justify-content: space-between;}
